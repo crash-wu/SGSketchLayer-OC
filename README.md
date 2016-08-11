@@ -14,6 +14,33 @@ A layer that allows the user to interactively sketch geometries on the map .You 
 ##Usage
 
  import<SGSketchLayer_OC/SGSketchLayer_OC.h>
+    /**
+    *  @author crash         crash_wu@163.com   , 16-08-10 16:08:51
+    *
+    *  @brief  初始化绘图工具
+    *
+    *  @param sketchType 绘制图形类型
+    *
+    *  @return 绘图工具
+    */
+    -(_Nullable instancetype)initWithSketchType:(SketchType )sketchType;
+
+    /**
+    *  @author crash         crash_wu@163.com   , 16-08-10 16:08:11
+    *
+    *  @brief  清除图层
+    */
+    -(void)clear;
+
+    /**
+    *  @author crash         crash_wu@163.com   , 16-08-10 16:08:06
+    *
+    *  @brief  获取标绘图形
+    *
+    *  @return 获取标绘图形
+    */
+    -( AGSGeometry* _Nullable )geometry;
+
 
 
 ## Example

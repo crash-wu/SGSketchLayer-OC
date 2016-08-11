@@ -1,0 +1,14 @@
+PODS:
+  - SGSketchLayer-OC (0.1.0)
+
+DEPENDENCIES:
+  - SGSketchLayer-OC (from `../SGSketchLayer-OC.podspec`)
+
+EXTERNAL SOURCES:
+  SGSketchLayer-OC:
+    :path: ../SGSketchLayer-OC.podspec
+
+SPEC CHECKSUMS:
+  SGSketchLayer-OC: 2fef17b8dcf08f81a52ede26346020be6e5a4ede
+
+COCOAPODS: 0.39.0

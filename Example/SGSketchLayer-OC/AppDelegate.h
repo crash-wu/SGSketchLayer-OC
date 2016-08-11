@@ -7,8 +7,9 @@
 //
 
 @import UIKit;
+//SGSketchLayer-OC
 
-@interface SGSketchLayer-OCAppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

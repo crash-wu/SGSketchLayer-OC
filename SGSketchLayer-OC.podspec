@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SGSketchLayer-OC'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SGSketchLayer-OC.'
+  s.summary          = 'SGSketchLayer for Object-C.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,21 +17,19 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = "A layer that allows the user to interactively sketch geometries on the map .You can sketch point(点) ,FoldLine(折线),Curve(曲线),Surfaces(曲面),Polygon(多边形) geometries from scratch."
 
   s.homepage         = 'https://github.com/<GITHUB_USERNAME>/SGSketchLayer-OC'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '吴小星' => 'xiaoxing.wu@southgis.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/SGSketchLayer-OC.git', :tag => s.version.to_s }
+  s.author           = { '吴小星' => 'crash_wu@163.com' }
+#s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/SGSketchLayer-OC.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'SGSketchLayer-OC/Classes/**/*'
-  
+s.source_files = 'SGSketchLayer-OC/Classes/*.{h,m}'
+
   # s.resource_bundles = {
   #   'SGSketchLayer-OC' => ['SGSketchLayer-OC/Assets/*.png']
   # }
@@ -39,4 +37,18 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+
+
+s.requires_arc = true
+
+
+    s.xcconfig = {
+
+    "FRAMEWORK_SEARCH_PATHS" => "$(HOME)/Library/SDKs/ArcGIS/iOS" ,
+    "OTHER_LDFLAGS"  => '-lObjC -framework ArcGIS -l c++',
+
+    'ENABLE_BITCODE' => 'NO',
+    'CLANG_ENABLE_MODULES' => 'YES'
+
+    }
 end

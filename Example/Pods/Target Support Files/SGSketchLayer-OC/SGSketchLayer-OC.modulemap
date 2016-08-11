@@ -1,0 +1,6 @@
+framework module SGSketchLayer_OC {
+  umbrella header "SGSketchLayer-OC-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -6,13 +6,17 @@
 //  Copyright (c) 2016 吴小星. All rights reserved.
 //
 
-#import "SGSketchLayer-OCAppDelegate.h"
+#import "AppDelegate.h"
+#import "TableViewController.h"
 
-@implementation SGSketchLayer-OCAppDelegate
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
+    [self.window makeKeyAndVisible];
+    self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:[[TableViewController alloc]init]];
     return YES;
 }
 

@@ -14,6 +14,8 @@ A layer that allows the user to interactively sketch geometries on the map .You 
 ##Usage
 
  import<SGSketchLayer_OC/SGSketchLayer_OC.h>
+
+
     /**
     *  @author crash         crash_wu@163.com   , 16-08-10 16:08:51
     *

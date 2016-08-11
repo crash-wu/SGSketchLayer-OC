@@ -1,5 +1,11 @@
 # SGSketchLayer-OC
 
+[![CI Status](http://img.shields.io/travis/吴小星/SGSketchLayer-OC.svg?style=flat)](https://travis-ci.org/吴小星/SGSketchLayer-OC)
+[![Version](https://img.shields.io/cocoapods/v/SGSketchLayer-OC.svg?style=flat)](http://cocoapods.org/pods/SGSketchLayer-OC)
+[![License](https://img.shields.io/cocoapods/l/SGSketchLayer-OC.svg?style=flat)](http://cocoapods.org/pods/SGSketchLayer-OC)
+[![Platform](https://img.shields.io/cocoapods/p/SGSketchLayer-OC.svg?style=flat)](http://cocoapods.org/pods/SGSketchLayer-OC)
+
+
 ##Describe
 
 
@@ -7,7 +13,7 @@ A layer that allows the user to interactively sketch geometries on the map .You 
 
 ##Usage
 
- import <SGSketchLayer_OC/SGSketchLayer_OC.h>
+ import<SGSketchLayer_OC/SGSketchLayer_OC.h>
 
 
 ## Example

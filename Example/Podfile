@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'SGSketchLayer-OC_Example' do
-  pod 'SGSketchLayer-OC', :path => '../SGSketchLayer-OC.podspec'
+  pod 'SGSketchLayer_OC', :path => '../SGSketchLayer_OC.podspec'
 
 #  target 'SGSketchLayer-OC_Tests' do
 #    inherit! :search_paths

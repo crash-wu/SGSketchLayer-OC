@@ -6,7 +6,7 @@
 //  Copyright © 2016年 吴小星. All rights reserved.
 //
 
-#import "SGSketchLayer-OC.h"
+#import "SGSketchLayer_OC.h"
 
 @interface SGSketchLayer_OC () <AGSMapViewTouchDelegate>
 

@@ -63,7 +63,7 @@
 		987698171D5B2C6D003FC4E4 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		987698191D5B336E003FC4E4 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		9876981A1D5B336E003FC4E4 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
-		FC1AE06B7896FFFB27808A01 /* SGSketchLayer-OC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "SGSketchLayer-OC.podspec"; path = "../SGSketchLayer-OC.podspec"; sourceTree = "<group>"; };
+		FC1AE06B7896FFFB27808A01 /* SGSketchLayer_OC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SGSketchLayer_OC.podspec; path = ../SGSketchLayer_OC.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,7 +174,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				FC1AE06B7896FFFB27808A01 /* SGSketchLayer-OC.podspec */,
+				FC1AE06B7896FFFB27808A01 /* SGSketchLayer_OC.podspec */,
 				71F34CB27468360762B9BE7E /* README.md */,
 				3E9C6B5CDF96A0CA36114DA2 /* LICENSE */,
 			);

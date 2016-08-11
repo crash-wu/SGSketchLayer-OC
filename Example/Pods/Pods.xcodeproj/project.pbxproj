@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		3A38BB493CBDD17C3A9B56CCEF1E4204 /* SGSketchLayer-OC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3565062AC527F6D772FB4BACC1E66CB /* SGSketchLayer-OC-dummy.m */; };
 		5DF94CB0602691DDEE4D19750B65E4BE /* Pods-SGSketchLayer-OC_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A45038335AA5251A8F4B04723C8E01 /* Pods-SGSketchLayer-OC_Example-dummy.m */; };
-		61F4BAAFC2FFC42652D95357A14A0A53 /* SGSketchLayer-OC.h in Headers */ = {isa = PBXBuildFile; fileRef = 906CAA0CBFA4E3A64D7F7AF2A141D0C2 /* SGSketchLayer-OC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61F4BAAFC2FFC42652D95357A14A0A53 /* SGSketchLayer_OC.h in Headers */ = {isa = PBXBuildFile; fileRef = 906CAA0CBFA4E3A64D7F7AF2A141D0C2 /* SGSketchLayer_OC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BB8E65F0149AE114E4372F44073E443 /* SGSketchLayer-OC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CE308808483272607548AE1484A8E83 /* SGSketchLayer-OC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7CEF0D8E2EF686E72AF3C008D4D9219A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		7EFF160C17E6976A00EAADC7A7BB5D5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		81053AF5C43B4C3AD0781081B17FD69A /* Pods-SGSketchLayer-OC_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ADD5E70AA58465E9D4FC5730C58D681 /* Pods-SGSketchLayer-OC_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		827CB66B24440200CC8D39D06507DCF2 /* SGSketchLayer-OC.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98F01AB55EB2EB887EF17FC37BB194 /* SGSketchLayer-OC.m */; };
+		827CB66B24440200CC8D39D06507DCF2 /* SGSketchLayer_OC.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98F01AB55EB2EB887EF17FC37BB194 /* SGSketchLayer_OC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,7 @@
 		5C86C894716ECB3503A23DBD26CB505F /* Pods_SGSketchLayer_OC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SGSketchLayer_OC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CE308808483272607548AE1484A8E83 /* SGSketchLayer-OC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGSketchLayer-OC-umbrella.h"; sourceTree = "<group>"; };
 		89962C140461D1C846DBF26E688A2556 /* Pods-SGSketchLayer-OC_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SGSketchLayer-OC_Example.modulemap"; sourceTree = "<group>"; };
-		906CAA0CBFA4E3A64D7F7AF2A141D0C2 /* SGSketchLayer-OC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGSketchLayer-OC.h"; sourceTree = "<group>"; };
+		906CAA0CBFA4E3A64D7F7AF2A141D0C2 /* SGSketchLayer_OC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGSketchLayer_OC.h; sourceTree = "<group>"; };
 		90A45038335AA5251A8F4B04723C8E01 /* Pods-SGSketchLayer-OC_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SGSketchLayer-OC_Example-dummy.m"; sourceTree = "<group>"; };
 		A3565062AC527F6D772FB4BACC1E66CB /* SGSketchLayer-OC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SGSketchLayer-OC-dummy.m"; sourceTree = "<group>"; };
 		AB3E6AC8DC6C76D7351B9CF633FA2D29 /* SGSketchLayer_OC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SGSketchLayer_OC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,7 +46,7 @@
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; };
 		BA6848FECA5FFDD8A62C009C9C30AD58 /* Pods-SGSketchLayer-OC_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SGSketchLayer-OC_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C025FCD7565C48C595394795B3556349 /* Pods-SGSketchLayer-OC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGSketchLayer-OC_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CA98F01AB55EB2EB887EF17FC37BB194 /* SGSketchLayer-OC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SGSketchLayer-OC.m"; sourceTree = "<group>"; };
+		CA98F01AB55EB2EB887EF17FC37BB194 /* SGSketchLayer_OC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGSketchLayer_OC.m; sourceTree = "<group>"; };
 		D1DC75B81FBFFFA2336F9100DB1621A3 /* Pods-SGSketchLayer-OC_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SGSketchLayer-OC_Example-resources.sh"; sourceTree = "<group>"; };
 		E0D93D480460174F7105877BE6FBE90C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3EED6E23260ABD8821240DD8122B4DB /* SGSketchLayer-OC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "SGSketchLayer-OC.modulemap"; sourceTree = "<group>"; };
@@ -83,8 +83,8 @@
 		2E6E20C91886F37298521CDE16800981 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				906CAA0CBFA4E3A64D7F7AF2A141D0C2 /* SGSketchLayer-OC.h */,
-				CA98F01AB55EB2EB887EF17FC37BB194 /* SGSketchLayer-OC.m */,
+				906CAA0CBFA4E3A64D7F7AF2A141D0C2 /* SGSketchLayer_OC.h */,
+				CA98F01AB55EB2EB887EF17FC37BB194 /* SGSketchLayer_OC.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -199,7 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BB8E65F0149AE114E4372F44073E443 /* SGSketchLayer-OC-umbrella.h in Headers */,
-				61F4BAAFC2FFC42652D95357A14A0A53 /* SGSketchLayer-OC.h in Headers */,
+				61F4BAAFC2FFC42652D95357A14A0A53 /* SGSketchLayer_OC.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A38BB493CBDD17C3A9B56CCEF1E4204 /* SGSketchLayer-OC-dummy.m in Sources */,
-				827CB66B24440200CC8D39D06507DCF2 /* SGSketchLayer-OC.m in Sources */,
+				827CB66B24440200CC8D39D06507DCF2 /* SGSketchLayer_OC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

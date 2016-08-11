@@ -7,7 +7,7 @@ A layer that allows the user to interactively sketch geometries on the map .You 
 
 ##Usage
 
- #import <SGSketchLayer_OC/SGSketchLayer_OC.h>
+ import <SGSketchLayer_OC/SGSketchLayer_OC.h>
 
 
 ## Example
@@ -15,6 +15,7 @@ A layer that allows the user to interactively sketch geometries on the map .You 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+    ArcGIS-Runtime-SDK-iOS for version 10.2.5
 
 ## Installation
 

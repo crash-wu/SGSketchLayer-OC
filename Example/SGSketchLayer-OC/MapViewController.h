@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <SGSketchLayer_OC/SGSketchLayer_OC.h>
+//#import <SGSketchLayer_OC/SGSketchLayer_OC.h>
+#import "SGSketchLayer_OC.h"
+
 
 @interface MapViewController : UIViewController
 

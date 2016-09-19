@@ -279,6 +279,7 @@
             for(NSInteger i = 0 ; i < self.polyline.numPaths;i++){
                 [self.polyline removePathAtIndex:i];
             }
+            [self.polyline addPathToPolyline];
         }
             break;
         case Polygon:
@@ -287,6 +288,8 @@
             for(NSInteger i = 0; i<self.polygon.numRings;i++){
                 [self.polygon removeRingAtIndex:i];
             }
+            
+            [self.polygon addRingToPolygon];
         }
             break;
         
@@ -294,6 +297,8 @@
         default:
             break;
     }
+    [self refresh];
+
 }
 
 /**

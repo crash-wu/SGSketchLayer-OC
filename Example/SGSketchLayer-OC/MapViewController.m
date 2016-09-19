@@ -15,6 +15,8 @@
 @property(nonatomic,strong) AGSMapView *mapView;
 @property(nonatomic,strong) UIButton    *drawBtn;
 @property(nonatomic,assign) SketchType sketchType;
+@property(nonatomic,strong) UIButton *clearBtn;
+@property(nonatomic,strong)     SGSketchLayer_OC *sketchLayer;
 
 @end
 
@@ -36,6 +38,14 @@
         [self.drawBtn setBackgroundColor:[UIColor blueColor]];
         [self.drawBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         [self.drawBtn addTarget:self action:@selector(drawBntTouch:) forControlEvents:UIControlEventTouchUpInside];
+        
+        self.clearBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+        self.clearBtn.frame = CGRectMake(100, self.view.frame.origin.y, 100, 50);
+        [self.view addSubview:self.clearBtn];
+        [self.clearBtn setTitle:@"清除" forState:UIControlStateNormal];
+        [self.clearBtn setBackgroundColor:[UIColor blueColor]];
+        [self.clearBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+        [self.clearBtn addTarget:self action:@selector(clearTouch:) forControlEvents:UIControlEventTouchUpInside];
         
         self.sketchType = sketchType;
 
@@ -66,9 +76,16 @@
 -(void)drawBntTouch:(UIButton *)button{
     
     
-    SGSketchLayer_OC *sketchLayer = [[SGSketchLayer_OC alloc]initWithSketchType:self.sketchType];
-    [self.mapView addMapLayer:sketchLayer];
-    self.mapView.touchDelegate = sketchLayer;
+    self.sketchLayer = [[SGSketchLayer_OC alloc]initWithSketchType:self.sketchType];
+    [self.mapView addMapLayer:self.sketchLayer];
+    self.mapView.touchDelegate = self.sketchLayer;
+}
+
+-(void)clearTouch:(UIButton *)button{
+    
+    if (self.sketchLayer) {
+        [self.sketchLayer clear];
+    }
 }
 
 @end

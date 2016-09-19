@@ -1,1 +1,0 @@
-../../../../../SGSketchLayer-OC/Classes/SGSketchLayer_OC.h
